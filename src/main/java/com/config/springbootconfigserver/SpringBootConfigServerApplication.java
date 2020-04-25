@@ -9,6 +9,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 public class SpringBootConfigServerApplication {
 
 	public static void main(String[] args) {
+		System.out.println("This is the in the branch");
 		SpringApplication.run(SpringBootConfigServerApplication.class, args);
 	}
 
