@@ -9,7 +9,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 public class SpringBootConfigServerApplication {
 
 	public static void main(String[] args) {
-		System.out.println("This is the in the branch");
+		System.out.println("This is the in the master");
 		SpringApplication.run(SpringBootConfigServerApplication.class, args);
 	}
 
